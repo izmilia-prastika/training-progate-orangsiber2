@@ -3,25 +3,34 @@ body {
   font-family: "Lucida Grande";
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   height: 65px;
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
 }
 
-.logo {
-  width: 124px;
-  margin-top: 20px;
-}
-
-a {
-  text-decoration: none;
-}
-
 .container {
   width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .top-wrapper {
@@ -79,4 +88,9 @@ a {
 
 .fa {
   margin-right: 5px;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
 }
