@@ -74,6 +74,11 @@ header {
   height: 65px;
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
+  /* Ubah position ke fixed, dan top ke 0 */
+  position: fixed;
+  top: 0px;
+  /* Ubah z-index ke 10 */
+  z-index: 10;
 }
 
 .logo {
@@ -166,15 +171,15 @@ header {
   box-shadow: none;
 }
 
-footer {
-  padding-top: 30px;
-}
-
 footer img {
-  width:125px;
+  width: 125px;
 }
 
 footer p {
   color: #b3aeb5;
   font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
 }
