@@ -142,3 +142,15 @@ header {
   font-size: 15px;
   color: #b3aeb5;
 }
+
+.message {
+  background-color: #5dca88;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
