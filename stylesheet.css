@@ -11,6 +11,11 @@ a {
   text-decoration: none;
 }
 
+/* Tambahkan CSS untuk clear */
+.clear {
+  clear: left;
+}
+
 .container {
   width: 100%;
   padding: 0 15px;
@@ -113,7 +118,7 @@ header {
 }
 
 .lesson-wrapper {
-  height: 580px;
+  /* Hapus CSS untuk height */
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
