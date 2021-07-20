@@ -16,7 +16,6 @@ a {
 }
 
 .container {
-  /* Ubah max-width ke 1170px */
   max-width: 1170px;
   width: 100%;
   padding: 0 15px;
@@ -117,6 +116,17 @@ header {
 .header-right a:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+}
+
 
 .lesson-wrapper {
   padding-bottom: 80px;
